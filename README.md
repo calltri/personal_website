@@ -1,3 +1,11 @@
+# Docker Instructions:
+
+Run the command:
+docker run -dp 8000:3000 --name personal_website_container personal_website:latest
+
+
+# Next.js instructions:
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

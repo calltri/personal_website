@@ -6,7 +6,8 @@ RUN npm i
 #     --mount=type=bind,source=package-lock.json,target=package-lock.json \
 #     --mount=type=cache,target=/root/.npm \
 #     npm ci --omit=dev
-COPY . .
+COPY app ./app
+COPY public ./public
 EXPOSE 3000
 RUN chown -R node /usr/src/app
 USER node

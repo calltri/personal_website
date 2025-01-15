@@ -1,11 +1,9 @@
 # Docker Instructions:
 
 
-Need the following dependencies to use typescript:
-Installing devDependencies (npm):
-- typescript
-- @types/react
-- @types/node
+TODO:
+- unexpected CSS token error. 
+- install bootstrap too
 
 Run the command:
 docker run -dp 8000:3000 --name personal_website_container personal_website:latest

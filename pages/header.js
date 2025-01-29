@@ -1,13 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import NavBar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import style from 'bootstrap/dist/css/bootstrap.css';
 
 export default function Header() {
     return (
       <div> 
-        <NavBar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+        <NavBar expand="lg" className="bg-body-tertiary" data-bs-theme="light">
             <Container>
                 <NavBar.Brand href="#home"> This is my header image </NavBar.Brand>
+                <NavBar.Toggle aria-controls="basic-navbar-nav" />
                 <NavBar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="home">Home</Nav.Link>

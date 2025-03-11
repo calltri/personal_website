@@ -5,9 +5,9 @@ import Nav from 'react-bootstrap/Nav';
 export default function Header() {
     return (
       <div> 
-        <NavBar expand="lg" className="bg-primary"  >
-            <Container>
-                <NavBar.Brand href="#home" className="text-white"> This is my header image </NavBar.Brand>
+        <NavBar expand="md" className="bg-primary"  >
+            <Container class="ms-3">
+                <NavBar.Brand href="#home" className="text-white "> <div>Insert img</div> Madison W. Call </NavBar.Brand>
                 <NavBar.Toggle aria-controls="basic-navbar-nav" />
                 <NavBar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
